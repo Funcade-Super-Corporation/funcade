@@ -1,0 +1,18 @@
+When VAR "game_menu" = 3 
+execute .nonsensegmaes
+Define .nonsensegmaes {
+When 'gmae window pop-up = true' execute .pain[
+ When .pain = executed 
+  Spawn obj "random" and timer
+  Set timer to 0.1 
+  When timer = 0.1
+  Execute .play
+  Set execution of .pain to .play
+  Execute .ad(
+  Define .ad
+  Set VAR "annoy user" to 1
+  Set VAR "copyright infringement" to 1
+  end) 
+   end] 
+   end} 
+   end
